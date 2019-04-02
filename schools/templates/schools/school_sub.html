@@ -1,0 +1,15 @@
+<h1>Google Map</h1>
+ 
+{% load easy_maps_tags %}
+
+<!-- Default map with 300x400 dimensions -->
+<!-- {% easy_map "Russia, Ekaterinburg, Mira 32" 300 400 %} -->
+{% easy_map context.name 800 400 %}
+<!-- {% easy_map object.map_location 350 200 %} -->
+
+<form action="{% url 'schools:school_sub' %}" method="post">
+    {% csrf_token %}
+    
+    <input type = 'text' name= 'Address'/>
+    <input type="submit" value="Get Directions" />
+</form>

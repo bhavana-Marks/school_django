@@ -1,0 +1,70 @@
+
+{% extends 'schools/base.html' %}
+
+{% block body %}
+{% load staticfiles%}
+
+	<div ng-controller="schoolsController" class="page-wrapper">
+    <section>
+        <div class="row">
+            <div class="banner inner-page">
+                <img src="{% static 'schoolList/images/inner-page-banner.jpg'%}" alt="My image"/>
+                <div class="caption">
+                    <h2><span class="sub-title">education</span> is not preparation for life<br> <span>education</span>is life itself.</h2>
+                    <cite>John Dewey</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="schoolsearch">
+            <div class="container">
+                <ul class="breadcrump ">
+                    <li> <a href="#!school">{{currentSelectedCity}}</a><span>/</span></li>
+                    <li><a href="#!school">{{currentSelectedArea}}</a></li>
+                </ul>
+
+                <div class="searchbox  pull-right">
+                    <input type="search" placeholder="search...." ng-model="schoolsInSelectedArea.schoolName"/>
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <section>
+        <div class="near-schools">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="school-block col-md-4 col-xs-12 col-sm-6" ng-repeat="i in schoolsInSelectedArea |filter: schoolsInSelectedArea.schoolName ">
+
+                    	{% for schl in schoolsList %}
+        					<!-- <img src="{% static 'schoolList/images/block1.jpg'%}"  -->
+        					<!-- <p class="distance">{{schl.school_distance}}</p> -->
+        					<div class="school-address">
+	                            <h3>{{schl.school_Name}}</h3>
+	                            <p>{{schl.school_Location}}</p>
+	                            <div class="clearfix"></div>
+	                            <div class="viwe-more" ><a href="{% url 'schools:school_sub' %}">View More <i class="fa fa-long-arrow-right"></i></a></div>
+                        		<div class="clearfix"></div>
+                        	</div>
+									   
+						 {% endfor %}
+                       <!--  <img src={{i.imgPath}} />
+                        <p class="distance">{{i.distance}}</p>
+                        <div class="school-address">
+                            <h3>{{i.schoolName}}</h3>
+                            <p>{{i.schoolLocation}}</p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="viwe-more" ng-click="selectedSchool($index)"><a href="#!school_sub">View More <i class="fa fa-long-arrow-right"></i></a></div>
+                        <div class="clearfix"></div> -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock %}

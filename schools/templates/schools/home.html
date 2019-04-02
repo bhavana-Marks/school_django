@@ -1,0 +1,101 @@
+{% extends 'schools/base.html' %}
+
+{% block body %}
+{% load staticfiles%}
+	<div class="page-wrapper" id = 'home'>
+		<section>
+        	<div class="row">
+           		<div id="chooseService" class="col-md-12 banner">
+           			
+           			<img src="{% static 'schoolList/images/banner_bg.jpg'%}" alt="My image"/>
+              		<div class="content">
+	                    <h1>Choose the right way</h1>
+	                    <p>Education is most powerful weapon which you can use to change the world</p>
+                	</div>
+
+                	<div class="form-fields">
+	                    <div class="select-form">
+	                    	<form action = "{% url 'schools:showSchoolsList' %}" method = "post" id="cityForm" data-areas-url="{% url 'schools:loadArea' %}">  {% csrf_token%}
+	                        <div class="select-box">
+	                        	 
+	                        	 	<select name="city" onchange="onChangeCity()" id = 'city'>
+									{% for city in context.cities %}
+
+									    <option value="{{ city.pk }}" selected="selected" name = 'city'>{{city.city_Name}}</option>	
+					    	      	{% endfor %}
+								</select>
+	                        		
+	                            
+	                        </div>
+	                        <div class="select-box">
+	                            <!-- <select ng-options="x for x in selectedAreaName " ng-model="selectedArea" ng-change="selectAreaNames()"> </select> -->
+	                            <select name="area" id = "area" >
+							<!-- 	{% for area in context.areas %}		        
+									    <option value="{{area.city_areas}}" selected="selected" name = 'area'>{{area.city_areas}}</option>	
+					    	      	{% endfor %} -->
+								</select>
+
+	                        </div>
+	                        <div class="select-box">
+	                            <select>
+	                                <option> Select service</option>
+	                                <option>Schools</option>
+	                                <option>Tutions</option>
+	                            </select>
+
+	                        </div>
+	                        <div class="select-box">
+	                            <!-- <button class="btn btn-default" ng-click="showSchoolsInfo()">submit</button> -->
+	                            <input type = 'submit' value = submit>
+	                        </div>
+	                        </form>
+	                    </div>
+                	</div>
+            	</div>
+        	</div>
+   	    </section>
+
+   	    <section>
+        <div class="col-md-12">
+            <div class="aboutUs container">
+                <h3>ABOUT US</h3>           
+                <div class="pp"></div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <div class="btn-about"><a href= "{% url 'schools:about' %}">View More <i class="fa fa-long-arrow-right"></i></a></div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </section>
+	</div>
+
+
+	 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script>
+    function onChangeCity() {
+      
+		var cityId = document.getElementById("city").value;
+		var url = $("#cityForm").attr("data-areas-url");
+		 $.ajax({   url: url,
+					 data: {
+					          'cityId': cityId       // add the country id to the GET parameters
+					        },
+				       success: function (data) {   // `data` is the return of the `load_areas` view function
+				       	 console.log(data)
+		           $("#area").html(data);  // replace the contents of the city input with the data that came from the server
+		        }
+		      });
+				 }
+  </script>
+{% endblock %}
+
+<!-- function onChangeCity(){
+    new Ajax.Request('/auto/ajax_color_request/', { 
+    method: 'post',
+    parameters: $H({'type':$('id_type').getValue()}),
+    onSuccess: function(transport) {
+        var e = $('id_color')
+        if(transport.responseText)
+            e.update(transport.responseText)
+    }
+    }); // end new Ajax.Request
+} -->

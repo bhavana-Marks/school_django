@@ -1,0 +1,56 @@
+{ 
+  "UserDetails": [
+    {
+      "FirstName": "Bhavana",
+      "LastName": "Doddapaneni",
+      "Email": "bdoddapaneni@fulcrum-gt.com",
+      "PhoneNumber": "234567890",
+      "Password": "bhavana@123",
+      "Dob": "23/08/1993",
+      "Gender": "Female",
+      "City": "Hyderabad",
+      "ZipCode": "123456",
+      "Country": "India",
+      "Address": "Kukatpally,Hyderabad"
+    },
+    {
+      "FirstName": "Srinivas",
+      "LastName": "Choppari",
+      "Email": "sChoppari@fulcrum-gt.com",
+      "PhoneNumber": "12345678",
+      "Password": "srinivas@123",
+      "Dob": "23/08/1970",
+      "Gender": "Male",
+      "City": "Hyderabad",
+      "ZipCode": "123456",
+      "Country": "India",
+      "Address": "Kukatpally,Hyderabad"
+    },
+    {
+      "FirstName": "Sravani",
+      "LastName": "Ganta",
+      "Email": "sravani@fulcrum-gt.com",
+      "PhoneNumber": "24545",
+      "Password": "4546565@123",
+      "Dob": "2656",
+      "Gender": "Male",
+      "City": "Hyderabad",
+      "ZipCode": "565",
+      "Country": "India",
+      "Address": "nizampet,Hyderabad"
+    },
+    {
+      "FirstName": "Jagadeesh",
+      "LastName": "Jagadeesh_1",
+      "Email": "Jagadeesh@fulcrum-gt.com_1",
+      "PhoneNumber": "0000000",
+      "Password": "Jagadeesh@123_1",
+      "Dob": "67/08/46546",
+      "Gender": "Jagadeesh",
+      "City": "Jagadeesh",
+      "ZipCode": "45",
+      "Country": "India",
+      "Address": "BanjaraHills"
+    }
+  ]
+}

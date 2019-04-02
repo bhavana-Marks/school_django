@@ -1,0 +1,2833 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0px;
+    padding: 0px;
+    color: #333;
+    width: 100%;
+    font-size: 16px;
+    
+    
+    /*overflow-x: hidden;*/
+    
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+
+
+ a:hover {
+        text-decoration: inherit;
+        color: inherit;
+    }
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+li {
+    list-style: none;
+   
+}
+
+ul {
+    padding: 0;
+    margin: 0px;
+}
+.message {
+clear:both;
+text-align:center;
+}
+/*
+ * Header  CSS Section
+ * --------------------------------------------------
+ */
+header {
+    background: #e47009;
+    padding: 15px 0px;
+    margin-bottom: 5px;
+}
+
+    header .left-help a {
+        font-size: 18px;
+        font-weight: 300;
+        color: #fff;
+    }
+
+        header .left-help a i {
+            font-size: 15px;
+            color: #fff;
+            padding-right: 5px;
+			background: #e47009;
+			
+		
+        }
+
+        header .left-help a:hover {
+            text-decoration: underline;
+        }
+
+    header .right-login ul {
+        float: right;
+    }
+
+        header .right-login ul li {
+            float: left;
+            padding-left: 5px;
+            font-size: 18px;
+            font-weight: 300;
+            color: #fff;
+        }
+
+            header .right-login ul li a i {
+                font-size: 15px;
+                padding-right: 5px;
+            }
+
+            header .right-login ul li a:hover {
+                text-decoration: underline;
+            }
+	/*
+	* Banner  CSS Section
+	* --------------------------------------------------
+	*/
+.banner {
+    position: relative;
+    min-height: 560px;
+}
+.banner img {
+        width: 100%;
+        height:auto;
+    }
+.banner:after {
+        position: absolute;
+        content: "";
+        display: block;
+        background: rgba(0,0,0,0.7);
+        height: 100%;
+        width: 100%;
+        top: 0px;
+        z-index: 1;
+    }
+.content {
+    position: absolute;
+    text-align: center;
+    color: white;
+    margin-left: 32%;
+	margin-top:-33%;
+    z-index: 2;
+}
+.content   h1{
+	font-size:64px;
+}
+ p{
+	font-size:15px;
+	
+}
+ .form-fields {
+            background: rgba(0,0,0,0.7);
+            border-radius: 6px;
+            padding: 15px;
+          position:absolute;
+			margin-top:-25%;
+			margin-left:28%;
+			z-index: 2;
+        }
+.form-fields .select-box {
+                background: #fff;
+                float: left;
+                width: 180px;
+                border-right: 1px solid #cbc9c9;
+            }
+.form-fields .select-box:nth-child(4) {
+                   border-right: 0px;
+				   height: 50px;
+               
+				
+				
+                }
+.form-fields select {
+                height: 50px;
+                width: 100%;
+                border-radius: 0px;
+                border: 0px;
+                background: none;
+                padding: 0px;
+                margin: 0px;
+				
+            }
+.form-fields select {
+                color: #cbc9c9;
+                padding-left: 10px;
+                font-size: 18px;
+                font-weight: 300;
+                border: 0px;
+                cursor: pointer;
+            }
+ .form-fields select option {
+                    color: #333;
+                    font-size: 18px;
+                    font-weight: 300;
+                }
+.form-fields select option:checked {
+                        background: #e47009;
+                        color: #fff;
+                    }
+ .form-fields select option:focus {
+                        background: #e47009;
+					 }
+.form-fields .select-box button{
+	 border-radius: 0px;
+                border: 0px;
+				 background-color:#e47009;
+				 width:100%;
+				 height:100%;
+}
+		/*
+		* About  CSS Section
+		* --------------------------------------------------
+		*/
+.aboutUs {
+   
+    background-color: white;
+   
+    padding: 3px;
+	clear:both;
+}
+
+    .aboutUs   h3 {
+        
+        word-spacing: 1px;
+		text-align:center;
+		
+    }
+     .aboutUs   h3:after {
+            position: absolute;
+            content: "";
+            display: block;
+            height: 1px;
+            width: 140px;
+            background: #e47009;
+            text-align: center;
+            left: 50%;
+            margin-left: -70px;
+            bottom: 15px;
+            top:50px;
+        }
+
+        .aboutUs   h3:before {
+            position: absolute;
+            content: "";
+            display: block;
+            height: 11px;
+            width: 11px;
+            background: none;
+            text-align: center;
+            left: 50%;
+            margin-left: 70px;
+            border: 1px solid #e47009;
+            border-radius: 50%;
+            bottom: 9px;
+             top:46px;
+        }
+
+    .aboutUs   p {
+        text-align: center;
+        margin-left: 22%;
+        margin-right: 22%;
+		word-spacing: 1px;
+		margin-top:1%;
+    }
+ 
+
+.btn-about {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+    .btn-about a {
+        background: #e47009;
+        border-radius: 6px;
+        text-align: center;
+        padding: 12px 15px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 300;
+        transition: all 0.3s ease 0s;
+    }
+
+        .btn-about a:hover {
+            background: #111;
+        }
+		/*
+		* Services  CSS Section
+		* --------------------------------------------------
+		*/
+.service-block {
+clear:both;
+    position: relative;
+   
+   
+   
+}
+.service-block   img {
+   
+     width:100%;
+	
+}
+ .service-block:after {
+        position: absolute;
+        content: "";
+        display: block;
+        background: rgba(0,0,0,0.7);
+        height: 100%;
+        width: 100%;
+        top: 0px;
+        z-index: 1;
+    }
+
+.serviceContent{
+	position:absolute;
+	margin-top:-35%;
+	    margin-left: 19%;
+     z-index: 2;
+}
+.serviceContent   h3{
+	 z-index: 3;
+	text-align:center;
+	color:white;	
+	word-spacing: 1px;
+}
+.servicecircle {
+  height: 1px;
+  background: white;
+  width:10%;
+  margin-left:45%;
+   z-index: 3;
+}
+
+.servicecircle:after{
+	float: left;
+	 content: '';
+	 
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+	margin-top: -3.7px;
+	margin-left:100%;
+	
+}
+.services{
+	margin-top:3%;
+     z-index: 3;
+}
+.service-info {  
+    padding: 2%;  
+   
+}
+
+.service-info  img{
+	width:100%;
+	
+}
+
+.transbox {
+    position: absolute;
+    width: 88%;
+    height: 8%;
+    margin-top:-33%; 
+    background-color: #ffffff;
+    opacity: 0.6;
+    text-align: center;
+}
+
+    .transbox   p {
+        margin-top: 2%;
+    }
+
+.blockcontent {
+    background-color: white;
+        width:auto;
+	margin-top:-0.3%;
+	
+}
+    .blockcontent   p {
+        padding: 5px;
+        margin-right: 3%;
+		margin-left: 5%;
+        text-align: left;
+		word-spacing: 1px;
+    }
+
+    .blockcontent .viwe-more {
+            background: #e47009;
+            text-align: center;
+        }
+  .blockcontent .viwe-more a {
+                width: 100%;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 300;
+                display: inline-block;
+                transition: all 0.3s ease 0s;
+                padding: 15px;
+            }
+.blockcontent .viwe-more a:hover {
+            background: #333;
+        }
+
+		/*
+		* Views Pages CSS Section
+		* --------------------------------------------------
+		*/
+.viewsComments{
+	background-color:#f5f5f5;
+    
+  
+}
+.mostViwed {
+   
+	margin-bottom:5%;
+    
+   
+}
+.mostViwed   h4 {
+    
+   
+	margin-top:8%;
+    padding: 3px;
+}
+
+.viewcircle {
+    height: 1px;
+  background: #e47009;
+  width:15%;
+  
+}
+.viewcircle:after{
+	float: left;
+	 content: '';
+	
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #e47009;
+	margin-top:-3.5px;
+	margin-left:100%;
+	
+}
+
+.badge {
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 30%;
+    background-color: #e47009;
+    width: 4%;
+    height: 4%;
+	border-radius: 50%;
+	line-height:2;
+	
+}
+
+.schoolcontent {
+    margin-left: 45%;
+ 
+   -webkit-box-shadow: 0px 0px 5px 0px rgba(209,205,209,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(209,205,209,1);
+    box-shadow: 0px 0px 5px 0px rgba(209,205,209,1);
+    
+}
+
+.school_info img{
+    float: left;  
+    width: 45%;
+}
+
+.schoolcontent   .data {
+    float: right;
+    padding: 6px;
+    text-align: left;
+    margin-left: 5%;
+	margin-right: 5%;
+}
+
+.schoolcontent   h3 {
+    margin-left: 5%;
+	 padding: 5px;
+}
+
+.icon {
+    margin-top: 50%;
+    margin-left: 8%;
+	margin-right: 5%;
+}
+.icon   i{
+	padding-right:5px;
+	
+}
+
+		/*
+		* comment Pages CSS Section
+		* --------------------------------------------------
+		*/
+
+.comments {
+   
+    margin-top: 8%;
+    margin-right: 5%;
+   -webkit-box-shadow: 0px 0px 5px 0px rgba(209,205,209,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(209,205,209,1);
+    box-shadow: 0px 0px 5px 0px rgba(209,205,209,1);
+   
+}
+
+
+ #commentssubcecribe   h4{
+
+	margin-top:15%;
+    padding: 3px;
+}
+.commentcircle{
+	 height: 1px;
+  background: #e47009;
+  width:44%;
+  
+	
+
+}
+.commentcircle:after {
+    
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #e47009;
+	float: left;
+	 content: '';
+	 margin-top:-3.5px;
+	margin-left:100%;
+   
+  
+}
+
+    .comment-section img{
+        float: left;
+		margin-right:3%;
+		margin-left:2%;
+		margin-top:2%;
+		padding-bottom:5px;
+    }
+
+    .comments cite{
+		text-align:right;
+		margin-left:20%;
+	}
+.commentbody{
+	padding:1px;
+}
+.commentbody  p {
+    padding: 5px;
+    margin-right: 15%;
+	
+    text-align: left;
+    margin-top: 2%;
+	margin-left:2%;
+}
+
+.subscribe {
+    margin-top: 9%;
+    width: 95%;
+   -webkit-box-shadow: 0px 0px 5px 0px rgba(209,205,209,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(209,205,209,1);
+    box-shadow: 0px 0px 5px 0px rgba(209,205,209,1);
+    padding: 15px;
+}
+    .subscribe   p {
+        margin-top: 4%;
+        text-align: center;
+    }
+
+#email {
+    margin-left: 22%;
+    width: 100%;
+}
+
+.input-group {
+    margin-bottom: 2%;
+}
+
+.envelope{
+    color:orange;
+	
+}
+
+
+.subscribe   button {
+    background-color: #e47009;
+    margin-left: 22%;
+    width: 61%;
+    color: white;
+	margin-bottom:13%;
+}
+
+
+.input-group   input{
+	width:60%;
+	text-align:center;
+	
+}
+/*
+    footer page css section
+    --------------------
+*/
+footer {
+    clear:both;
+    background: #0b0b0b;
+    padding: 10px 0px;
+}
+
+    footer .bottom-footer .Copyright p {
+        font-size: 16px;
+        color: #fff;
+        font-weight: 300;
+        line-height: 35px;
+    }
+
+    footer .bottom-footer .media-icons ul {
+        float: right;
+    }
+
+        footer .bottom-footer .media-icons ul li {
+            float: left;
+        }
+
+            footer .bottom-footer .media-icons ul li a i {
+                font-size: 26px;
+                color: #fff;
+                padding-left: 10px;
+                padding-top: 5px;
+            }
+
+            footer .bottom-footer .media-icons ul li a:hover i {
+                color: #e47009;
+            }
+
+/*
+ * Inner Pages CSS Section
+ * --------------------------------------------------
+ */
+		/*
+		* login Pages CSS Section
+		* --------------------------------------------------
+		*/
+
+		
+#login{
+	text-decoration:underline;
+	text-decoration-color:white;
+}
+.login {
+    margin-bottom:90px;
+  
+}
+.login .form{
+	margin-top:18%;
+	margin-bottom:20%;
+}
+.login .form h3{
+	text-align:center;
+	
+	
+}
+.login .form h3:after {
+		position: absolute;
+        content: "";
+        display: block;
+        height: 1px;
+		width: 80px;
+		background: #e47009;
+		text-align: center;
+	    left: 50%;
+		margin-left: -40px;     
+}
+.login .form h3:before {
+	position: absolute;
+	content: "";
+	display: block;
+	height: 11px;
+	width: 11px;
+	background: none;
+	text-align: center;
+	left:52.1%;
+	margin-top:1.1%;
+	border: 1px solid #e47009;
+	border-radius: 50%;
+	
+
+}
+
+.login .form .form-fields{
+	padding:10px;
+	background:#f0f0ef;
+	margin-top:2%;
+	left:12%;
+	width:20%;
+	height:auto;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	
+}
+.login .form .form-fields .login-fields{
+	margin-top:6%;
+	padding:0px;
+	margin-bottom:0px;
+	margin-left:15%;
+}
+.login .form .form-fields .input-field{
+	border: 0px;
+	border-radius:10px;
+	height: 40px;
+    width: 80%;
+	color: #fff;
+	background:rgba(0,0,0,0.7);
+	padding-left:5px;
+	border-radius:5px;
+	
+	
+	
+}
+.login .form .form-fields input{
+	margin-bottom:5%;
+}
+
+.login .form .form-fields .login-fields button{
+	margin-top:5%;
+	border-radius:7px;
+	margin-left:1px;
+	border:0px;
+	
+}
+.login .form .form-fields .login-fields input::placeholder{
+	color: #fff !important;
+}
+
+
+.login .form .form-fields .login-fields button:nth-of-type(1){
+	width:36%;
+	color: #fff;
+	background-color:#e47009;
+	margin-right:7px;
+	
+}
+.login .form .form-fields .login-fields button:nth-of-type(1):hover{
+	background-color: rgba(0,0,0,0.7);
+	color:#e47009;
+}
+.login .form .form-fields .login-fields button:nth-of-type(2){
+	width:40.5%;
+	color: #fff;
+	background:rgba(0,0,0,0.7);
+}
+.login .form .form-fields .login-fields button:nth-of-type(2):hover{
+	background:#e47009;
+	color:#fff;
+}
+.login .form .form-fields button{
+	color: #fff;
+	background:rgba(0,0,0,0.7);
+	width:106%;
+	border-radius:0px;
+	margin-top:5%;
+	margin-left:-3%;
+	border-bottom-left-radius:6px;
+	border-bottom-right-radius:6px;
+	border:0px;
+}
+.login .form .form-fields button:hover{
+	background:#e47009;
+	color:#fff;
+}
+	
+	
+	
+	
+
+
+		/*
+		* Help Page CSS Section
+		* --------------------------------------------------
+		*/
+#help{
+	text-decoration:underline;
+	text-decoration-color:white;
+}
+.banner.inner-page {
+    position: relative;
+    min-height: 410px;
+}
+
+     .banner.inner-page .caption {
+       
+       /*position:absolute;*/
+       margin-top:-22%;
+       text-align:center;
+    }
+	 .banner.inner-page .caption h2{
+		  font-size: 30px;
+        color: #fff;
+        text-align: center;
+        font-weight: 300;
+        line-height: 40px;
+		text-transform:uppercase;
+       
+	 }
+	 .banner.inner-page .caption h2 .sub-title{
+		 font-size: 50px;
+		  color: #e47009;
+		  font-weight: bold;
+           
+			
+	 }
+	.banner.inner-page .caption h2 span:nth-of-type(2){
+		color: #e47009;
+	}
+	.banner.inner-page .caption cite{
+		color: #fff;
+        font-size: 20px;
+        font-weight: 300;
+        
+        text-align: right;
+        padding-top: 30px;
+		padding-left:45px;
+        position: relative;
+		
+	}
+	.banner.inner-page .caption cite:after{
+		position: absolute;
+            content: "";
+            background: #fff;
+            bottom: -5px;
+            height: 2px;
+            width: 50px;
+            left: 43%;
+       	
+	}
+	.contact-body{
+		margin-top:5%;
+		margin-bottom:4%;
+		
+	}
+	.contactUs{
+		position:relative;		
+		 margin-top:20%;
+		 text-align:center;
+		  
+		
+	}
+	.contactUs h3{
+		
+		font-weight:100;
+		text-transform:uppercase;		
+		text-align: center;
+		margin-bottom:3%;
+	}
+	.contactUs h3:after{
+		position: absolute;
+            content: "";
+            display: block;
+            height: 1px;
+            width: 130px;
+            background: #e47009;
+            text-align: center;
+           left: 50%;
+            margin-left: -60px;  
+			
+   	}
+	.contactUs h3:before{
+		position: absolute;
+            content: "";
+            display: block;
+            height: 11px;
+            width: 11px;
+            background: none;
+            text-align: center;
+            left: 50%;
+            margin-left: 70px;
+			top:79%;
+            border: 1px solid #e47009;
+            border-radius: 50%;
+            bottom: 9px;
+	}
+	.contactUs .contact-form{
+		text-align:right;
+		margin-right:40%;
+		margin-left:27%;
+		
+	}
+	.contactUs .contact-form .form-group label{
+		
+		font-weight:100;
+		
+	}
+	.contactUs .contact-form input{
+		padding:5px;
+		margin-bottom:15px;
+		
+		width:250px;
+		border-radius:5px;
+		
+		
+	}
+	
+	.contactUs .contact-form textarea{
+		margin-bottom:15px;
+		
+		border-radius:5px;
+		
+	}
+	.contactUs .contact-form  button{
+		margin-right:50%;
+		width:140px;
+		color:#fff;
+	    background: #e47009;
+	    border:0px;
+		text-align:center;
+	  
+	}
+	.contactUs .contact-form  button:hover{
+		color:#e47009;
+		background:#fff;
+	}
+		/*
+		* Registration Page CSS Section
+		* --------------------------------------------------
+		*/
+		
+	.right-login .SignUp{
+		text-decoration:underline;
+		text-decoration-color:white;
+	}
+		
+	.reg-body{
+		margin-top:13%;
+		margin-bottom:5%;
+		background-color:##f5f5f5;
+	}
+		
+	.reg-body .reg-form h3{
+		text-align:center;
+		padding-bottom:25px;
+		font-weight:100;
+	}	
+		
+	.reg-body .reg-form h3:after{
+		position: absolute;
+            content: "";
+            display: block;
+            height: 1px;
+            width: 150px;
+            background: #e47009;
+            text-align: center;
+           left: 50%;
+            margin-left: -73px; 
+	}	
+	
+	.reg-body .reg-form h3:before{
+		position: absolute;
+            content: "";
+            display: block;
+            height: 11px;
+            width: 11px;
+            background: none;
+            text-align: center;
+            left:54%;
+            border: 1px solid #e47009;
+            border-radius: 50%;
+			margin-top:1.1%;
+	}	
+			
+		
+		.reg-body .reg-form .form-group{
+		text-align:right;
+		margin-right:30%;
+		margin-left:27%;
+		
+	}
+		.reg-body .reg-form .form-group label{
+			font-weight:100;
+		}
+	.reg-body .reg-form .form-group input{
+		padding:5px;
+		margin-bottom:15px;
+		border-radius:5px;
+		
+	}	
+	
+	.reg-body .reg-form .form-group .gender{
+		margin-right:25%;
+		padding:0px;
+		margin-top:-6%;
+		font-weight:100;
+		
+	}
+	
+	.reg-body .reg-form .form-group textarea{
+		margin-bottom:15px;
+		border-radius:5px;
+		margin-right:20%;
+		
+	}
+	
+	
+	.reg-body .reg-form .form-group select{
+		width:100%;
+		margin-bottom:15px;
+	}	
+	
+	.reg-body .reg-form .form-group span{
+		color:#e47009;
+	}
+	.reg-body .reg-form .form-group button{
+		border:0px;
+		color: #fff;
+	background-color:#e47009;
+	width:36%;
+	float:right;
+	}
+	.reg-body .reg-form .form-group button:hover{
+		color:#e47009;
+		background-color:rgba(0,0,0,0.7);
+	}
+	
+		/*
+		* About Page CSS Section
+		* --------------------------------------------------
+		*/
+		.about-body{
+		margin-top:13%;
+		margin-bottom:5%;
+		background-color:##f5f5f5;
+	}
+	.about-body .about h3{
+		text-align:center;
+		padding-bottom:25px;
+		font-weight:100;
+		text-transform:uppercase;
+	}
+	.about-body .about h3:after{
+		position: absolute;
+		content: "";
+		display: block;
+		height: 1px;
+		width: 110px;
+		background: #e47009;
+		text-align: center;
+		left: 50%;
+		margin-left: -55px; 
+	}
+	.about-body .about h3:before{
+		position: absolute;
+		content: "";
+		display: block;
+		height: 11px;
+		width: 11px;
+		background: none;
+		text-align: center;
+		left:52.9%;
+		border: 1px solid #e47009;
+		border-radius: 50%;
+		margin-top:1.1%;
+	}
+	.about-body .about p{
+		text-align:center;
+		font-weight:100;
+		font-size:20px;
+		margin-left:10%;
+		margin-right:14%;
+	}
+	
+		/*
+		* School Page CSS Section
+		* --------------------------------------------------
+		*/
+		.schoolsearch{
+			margin-top:10%;
+			background-color:rgba(0,0,0,0.7);
+		}
+		.schoolsearch ul.breadcrump{
+			 padding: 10px 16px;
+			list-style: none;
+			
+		}
+		.schoolsearch ul.breadcrump li{
+			float:left;
+			padding-right:5px;
+			color:#fff;
+		}
+		.schoolsearch ul.breadcrump li span{
+			color:#fff;
+			
+			padding:8px;
+		}
+		.schoolsearch .searchbox{
+			margin-top:-10px;
+			padding-top:0px;
+			margin-bottom:7px;
+		}
+		.schoolsearch .searchbox input{
+			border-radius:15px;
+			width:250px;
+		}
+		.schoolsearch .searchbox i{
+			position:absolute;
+			margin-left:12%;
+			margin-top:-21px;
+			color:rgba(0,0,0,0.7);
+		}
+		.near-schools{
+			background:#f0f0ef;
+		}
+		.near-schools .school-address{
+			 background:#fff;
+			 width:100%;
+			 margin-top:-20px;
+		}
+		.near-schools .school-block{
+			margin-top:3%;
+			margin-bottom:3%;
+
+		
+		}
+		.near-schools .school-block img{
+			width:100%;
+		}
+		.near-schools .school-block .distance{
+			position: absolute;
+            margin-top:-10%;
+            margin-left:65%;
+            background: rgba(228,112,9,0.9);
+            border-radius:15px;
+            height: 25px;
+            width: 50px;
+            color: #fff;
+            text-align: center;
+            line-height: 26px;
+		}
+		.near-schools .school-block .school-address p{
+			margin-right:16%;
+            text-align: left;
+            line-height: 26px;
+			width:100%;
+			margin-left:2%;
+			
+		}
+		.near-schools .school-block .school-address h3{
+			color:#e47009;
+			margin-left:2%;
+		}
+		.near-schools .school-block .viwe-more{
+			 background: #e47009;
+             text-align: center;
+			 margin-top:-10px;
+		}
+		.near-schools .school-block .viwe-more a{
+		    width: 100%;
+			color: #fff;
+			font-size: 18px;
+			font-weight: 300;
+			display: inline-block;
+			padding: 15px;
+		}
+		/*
+		* School_sub Page CSS Section
+		* --------------------------------------------------
+		*/
+		.school-info{
+			margin-top:3%;
+			margin-bottom:5%;
+				
+		}
+		
+		.school-info .top-content .carousel{
+			border:7px solid #f0f0ef;
+			border-radius:6px;
+			padding:0px;
+			margin-bottom:0px;
+			
+			
+		}
+
+.carousel img{
+  margin:auto;
+  width:100%;
+ height:auto;
+  
+}
+.school-info .top-content #slides_control {
+      position:absolute;
+}
+
+
+#slides_control {
+
+ 
+  left:50%;
+  top:20px;
+ margin-left:-200px;
+}
+		.carousel-caption{
+			position:absolute;
+			background:rgba(0,0,0,0.7);
+		width:100%;
+		     margin-left: -20%;
+			height:40px;
+			
+			
+		}
+       
+      .carousel-caption .rating {
+             position:absolute;
+    color:  #fff;
+    padding: 0;
+}
+ul.rating {
+    display: inline-block;
+   left:100px;
+    top:3px;
+}
+.rating li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    font-size:20px;
+}
+.rating .filled {
+    color:  #e47009;
+}
+	.carousel-caption .avg-rating{
+			color:#fff;
+			background:#e47009;
+			width:40px;
+			height:20px;
+			text-align:center;
+			border-radius:5px;
+			position:absolute;
+            top: 8px;
+          left: 215px;
+		}
+		.carousel-caption .review{
+			position:absolute;
+			top:10px;
+		margin-left:75%;
+		
+		
+          
+		}
+		.carousel-caption .review i{
+			padding:3px;
+            color:#fff;
+		}
+		
+		.school-info .top-content .top-right h2{
+			text-align:center;
+			text-transform:uppercase;
+			font-weight:100;
+		}
+		.school-info .top-content .top-right h2:after{
+			position: absolute;
+			content: "";
+			display: block;
+			height: 1px;
+			width: 190px;
+			background: #e47009;
+			text-align: center;
+			left: 50%;
+			margin-left: -88px; 
+		}
+		.school-info .top-content .top-right h2:before{
+			position: absolute;
+			content: "";
+			display: block;
+			height: 11px;
+			width: 11px;
+			background: none;
+			text-align: center;
+			left:70.7%;
+			border: 1px solid #e47009;
+			border-radius: 50%;
+			top:49px;
+		}
+		.school-info .top-content .top-right .contact-info{
+			margin-top:5%;
+		}
+		.school-info .top-content .top-right .contact-info .contact-field{
+			margin-bottom:15px;
+		}
+		.school-info .top-content .top-right .contact-info .contact-field  li{
+			text-align:left;
+			padding:5px;
+           
+			
+		}
+		.school-info .top-content .top-right .contact-info .contact-field li i {
+			text-align:right;
+			padding:5px;
+		}
+		.school-info .top-content .top-right .contact-info .Get-Directions{
+			 background: #e47009;
+             text-align: center;
+			 width:50%;
+			 border-radius:10px;
+			 margin-left:30%;
+			 margin-top:20%;
+             line-height:2;
+             height:30px;
+		}
+		.school-info .top-content .top-right .contact-info .Get-Directions a{
+			 
+			 color: #fff;
+			 font-size: 18px;
+			 font-weight: 300;
+			 display: inline-block;
+			 padding: 15px;
+		}
+		.school-info .top-content .top-right .contact-info .Get-Directions a i{
+			margin-left:70px;
+		}
+		
+		.school-info .mid-content{
+			margin-top:7%;
+			
+		}
+		.school-info .bottom-content{
+			margin-top:5%;
+			
+		}
+		.school-info .bottom-content .facilities{
+			 padding-bottom: 30px;
+			 padding-left: 0px;
+		}
+		.school-info .bottom-content h2{
+			 padding-bottom: 30px;
+			 color: #333;
+			 font-size: 30px;
+			 font-weight: 300;
+			 position: relative;
+			 text-transform:uppercase;
+		}
+		.school-info .bottom-content  h2:after{
+			 position: absolute;
+			 content: "";
+			 display: block;
+			 height: 1px;
+			 width: 140px;
+			 background: #e47009;
+			 text-align: left;
+			 left: 0;
+			 bottom: 25px;
+		}
+		.school-info .bottom-content .facilities h2:before{
+			position: absolute;
+			content: "";
+			display: block;
+			height: 11px;
+			width: 11px;
+			background: none;
+			text-align: center;
+			left:37.4%;
+			border: 1px solid #e47009;
+			border-radius: 50%;
+			top:32px;
+		}
+		.school-info .bottom-content .facilities ul li {
+			 color: #333;
+			 line-height: 30px;
+		}
+		.school-info .bottom-content .facilities ul li  i{
+			 color: #333;
+			 padding-right: 10px;
+		}
+		
+		#map { 
+  
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 1px solid silver;
+      width: 100%;
+    height: 400px;
+}
+
+        /*
+		* model pop up forgot password Page CSS Section
+		* --------------------------------------------------
+		*/
+       
+           
+         
+            .modal-body .form-group li {
+                float:left;
+               
+            }
+                
+
+
+ .modal-body .form-group ul li input {
+                width:83%;
+
+            }
+
+.modal-body .form-group li:nth-child(1) {
+    text-align:right;
+}
+ .angular-google-map-container {
+  height: 400px;
+  margin-bottom: 15px;
+}
+ .theme-background {
+    background-color:#e47009;
+    color:white;
+}   
+
+         /*
+		* mobile view  CSS Section
+		* --------------------------------------------------
+		*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) and (orientation : portrait) {
+   .page-wrapper {
+    display:inline-block;
+    padding:0 15px;
+}
+     body {
+        background-color: cadetblue;
+       
+    }
+   
+    .banner {
+        position: relative;
+        margin: 0px;
+        padding: 0px;
+    }
+
+        .banner img {
+            width: 100%;
+            height: 560px;
+        }
+
+    .content {
+        position: absolute;
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        margin-top: -500px;
+        z-index: 2;
+        margin-left: 0px;
+    }
+
+        .content h1 {
+            font-size: 36px;
+        }
+
+        .content p {
+            font-size: 15px;
+        }
+
+    .form-fields {
+        margin-top: -85%;
+        margin-left: 5%;
+        border: 1px solid black;
+    }
+       
+        .form-fields .select-box {
+            width:100%;
+        }
+
+
+        /*
+		* About  CSS Section
+		* --------------------------------------------------
+		*/
+
+   
+ 
+
+
+ 	/*
+		* Services  CSS Section
+		* --------------------------------------------------
+		*/
+.service-block {
+ 
+    height: 1200px;
+}
+.service-block  #block_bg {
+   
+     width: 100%;
+          height:100%;
+	
+}
+
+
+.serviceContent{
+	
+	margin-top:-320%;
+	  margin-left:1%;
+   
+}
+
+.servicecircle {
+  height: 1px;
+  background: white;
+  width:28%;
+  margin-left:35%;
+   z-index: 3;
+}
+
+/*
+		*  views and comments  CSS Section
+		* --------------------------------------------------
+		*/
+
+.viewcircle {
+    height: 1px;
+  background: #e47009;
+  width:35%;
+  
+}
+.school_info img{
+    
+    width: 100%;
+}
+
+.schoolcontent    {
+   	width:100%;
+    padding-bottom: 6px;
+   clear:both;
+   float:right
+   
+}
+
+.schoolcontent   h3 {
+ padding:5px;
+}
+
+.badge {
+   
+     margin-top: 10%;
+   right:50px;
+   
+    width: 10%;
+    height: 2%;
+	
+	
+}
+/*
+		* login Pages CSS Section
+		* --------------------------------------------------
+		*/
+
+		
+.inner-page h2{
+
+			margin-top:-130%;
+		}
+.login {
+	clear:both;
+    
+  margin-top:38%;
+  margin-bottom:60%;
+}
+.login .form h3:before {
+	
+	left:61.1%;
+	margin-top:5.5%;
+	
+	
+
+}.login .form .form-fields{
+	
+	
+	margin-left:10%;
+	width:80%;
+	
+	
+}
+
+.login .form .form-fields button {
+   
+    width: 108%;
+   margin-left: -4%;
+   
+}
+
+
+		/*
+		* Help Page CSS Section
+		* --------------------------------------------------
+		*/
+
+	.contact-body{
+        clear:both;
+		margin-top:33%;
+		margin-bottom:4%;
+		
+	}
+	
+	
+	.contactUs h3:before{
+		
+            left: 50%;
+            margin-left: 70px;
+			top:6%;
+            bottom: 9px;
+	}
+	.contactUs .contact-form{
+		text-align:right;
+		margin-right:40%;
+		margin-left:0px;
+        padding-left:0px;
+		
+	}
+	.contactUs .contact-form .form-group label{
+		
+		font-weight:100;
+        margin:0px;
+        padding:0px;
+		
+	}
+	.contactUs .contact-form input{
+		padding:5px;
+		margin-bottom:15px;
+		
+		width:200px;
+		border-radius:5px;
+		
+		
+	}
+	
+	/*
+		* Registration Page CSS Section
+		* --------------------------------------------------
+		*/
+		
+	.reg-body{
+		margin-top:53%;
+		margin-bottom:5%;
+		background-color:#f5f5f5;
+	}
+	
+	.reg-body .reg-form h3:before{
+		
+            left:71%;          
+			margin-top:6.1%;
+	}	
+			
+		
+		.reg-body .reg-form .form-group{
+		text-align:right;
+		
+		margin-left:15%;
+		
+	}
+	.reg-body .reg-form .form-group input{
+		padding:5px;
+		margin-bottom:15px;
+		border-radius:5px;
+        width:180px;
+		
+	}	
+	
+	.reg-body .reg-form .form-group .gender{
+		
+		padding:3px;
+		
+		
+	}
+	
+	.reg-body .reg-form .form-group textarea{
+		 width:180px;
+		
+	}
+	
+	
+	.reg-body .reg-form .form-group select{
+		width:180px;
+		margin-bottom:15px;
+	}	
+	
+	/*
+		* About Page CSS Section
+		* --------------------------------------------------
+		*/
+		.about-body{
+		margin-top:53%;
+		margin-bottom:5%;
+		background-color:#f5f5f5;
+	}
+	
+	.about-body .about h3:before{
+		position: absolute;
+		content: "";
+		display: block;
+		height: 11px;
+		width: 11px;
+		background: none;
+		text-align: center;
+		left:64.9%;
+		border: 1px solid #e47009;
+		border-radius: 50%;
+		margin-top:5.5%;
+	}
+	/*
+		* School Page CSS Section
+		* --------------------------------------------------
+		*/
+		.schoolsearch{
+			margin-top:55%;
+			background-color:rgba(0,0,0,0.7);
+		}
+		
+		.schoolsearch .searchbox i{
+			position:absolute;
+			
+			margin-left:60%;
+			margin-top:-6%;
+			color:rgba(0,0,0,0.7);
+		
+			color:rgba(0,0,0,0.7);
+		}
+		
+		.near-schools .school-address{
+			 background:#fff;
+			 width:100%;
+			 margin-top:-20px;
+		}
+		
+		/*
+		* School_sub Page CSS Section
+		* --------------------------------------------------
+		*/
+        #slides_control {
+
+ 
+  left:60%;
+  top:20px;
+
+}
+    .school-info .top-content .top-right {
+        clear:both;
+        margin-top:80%;
+    }
+  
+   .school-info .top-content .top-right h2:before{
+			position: absolute;
+			content: "";
+			display: block;
+			height: 11px;
+			width: 11px;
+			background: none;
+			text-align: center;
+			left:80%;
+			border: 1px solid #e47009;
+			border-radius: 50%;
+			top:49px;
+		}
+	.school-info .bottom-content  h2:after{
+			 position: absolute;
+			 content: "";
+			 display: block;
+			 height: 1px;
+			 width: 140px;
+			 background: #e47009;
+			 text-align: left;
+			 left: 0;
+			 bottom: 25px;
+		}
+		.school-info .bottom-content h2:before{
+			position: absolute;
+			content: "";
+			display: block;
+			height: 11px;
+			width: 11px;
+			background: none;
+			text-align: center;
+			left:41.4%;
+			border: 1px solid #e47009;
+			border-radius: 50%;
+			top:92.5%;
+		}
+        
+ul.rating {
+    display: inline-block;
+   left:55px;
+    top:3px;
+}
+
+    .carousel-caption {
+        position: absolute;
+        left: 20%;
+        bottom: 1px;
+        z-index: 10;
+        /* padding-top: 20px; */
+        /* padding-bottom: 20px; */
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+    }
+	.carousel-caption .avg-rating{
+			color:#fff;
+			background:#e47009;
+			width:40px;
+			height:20px;
+			text-align:center;
+			border-radius:5px;
+			position:absolute;
+            top: 8px;
+          left: 170px;
+		}
+		.carousel-caption .review{
+			position:absolute;
+			top:10px;
+		margin-left:75%;
+       
+		}
+         .school-info .top-content .top-right .contact-info .Get-Directions {
+    background: #e47009;
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 30%;
+     margin-top: 4%; 
+    line-height: 2;
+    height: 30px;
+}
+                 .angular-google-map-container {
+          height: 300px;
+          margin-bottom: 15px;
+}
+		
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) and (orientation : landscape) {
+    .page-wrapper {
+    display:inline-block;
+    padding:0 15px;
+}
+     .banner {
+        position: relative;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+
+        .banner img {
+            width: 100%;
+             height: 560px;
+        }
+    .content {
+       
+    position: absolute;
+    text-align: center;
+    color: white;
+    margin-left: 20%;
+	margin-top:-70%;
+   
+
+    }
+   .content h1 {
+            font-size: 24px;
+        }
+     .content p {
+            font-size: 15px;
+        }
+     .form-fields {
+        margin-top: -54%;
+        margin-left: 25%;
+        border: 1px solid black;
+    }
+       
+        .form-fields .select-box {
+            width:100%;
+        }
+         /*
+		* About  CSS Section
+		* --------------------------------------------------
+		*/
+       
+
+        /*
+		* Services  CSS Section
+		* --------------------------------------------------
+		*/
+.service-block {
+ 
+    height: 1700px;
+}
+.service-block  #block_bg {
+   
+     width: 100%;
+          height:1700px;
+	
+}
+
+
+.serviceContent{
+	
+	margin-top:-250%;
+	margin-left:37px;
+   
+}
+
+.servicecircle {
+ 
+  width:18%;
+  margin-left:42%;
+ 
+}
+    .transbox {
+        width:96%;
+    }
+
+  /*  views and comments  CSS Section
+		* --------------------------------------------------
+		*/
+
+.viewcircle {
+    height: 1px;
+  background: #e47009;
+  width:20%;
+  
+}
+.school_info img{
+    
+    width: 100%;
+}
+
+.schoolcontent    {
+   	width:100%;
+    padding-bottom: 6px;
+   
+    margin-left:0px;
+   
+}
+
+.schoolcontent   h3 {
+ padding:5px;
+}
+
+.badge {
+   
+     margin-top: 10%;
+   right:50px;
+   
+    width: 8%;
+    height: 2%;
+	border-radius: 50%;
+	line-height:3;
+   
+	
+}
+.icon {
+    margin-top: 20%;
+   
+}
+/*
+		* login Pages CSS Section
+		* --------------------------------------------------
+		*/
+
+		
+.inner-page h2{
+
+			margin-top:-70%;
+		}
+.login {
+	clear:both;
+    
+  margin-top:20%;
+  margin-bottom:40%;
+}
+.login .form h3:before {
+	
+	left:56.1%;
+    margin-top: 3.5%;
+	
+	
+
+}.login .form .form-fields{
+	
+	
+	margin-left:10%;
+	width:70%;
+	
+	
+}
+
+.login .form .form-fields button {
+   
+    width: 105%;
+   margin-left: -2.5%;
+   
+}
+	/*
+		* Help Page CSS Section
+		* --------------------------------------------------
+		*/
+
+	.contact-body{
+        clear:both;
+		margin-top:15%;
+		margin-bottom:4%;
+		
+	}
+	
+	
+	.contactUs h3:before{
+		
+            left: 50%;
+            margin-left: 70px;
+			top:6%;
+            bottom: 9px;
+	}
+	.contactUs .contact-form{
+		text-align:right;
+		margin-right:40%;
+		margin-left:25%;
+        padding-left:0px;
+		
+	}
+	.contactUs .contact-form .form-group label{
+		
+		font-weight:100;
+        margin:0px;
+        padding:0px;
+		
+	}
+	.contactUs .contact-form input{
+		padding:5px;
+		margin-bottom:15px;
+		
+		width:200px;
+		border-radius:5px;
+		
+		
+	}
+    /*
+		* Registration Page CSS Section
+		* --------------------------------------------------
+		*/
+		
+	.reg-body{
+		margin-top:33%;
+		margin-bottom:5%;
+		background-color:#f5f5f5;
+	}
+	
+	.reg-body .reg-form h3:before{
+		
+            left:62%;          
+			margin-top:3.1%;
+	}	
+			
+		
+		
+	.reg-body .reg-form .form-group input{
+		padding:5px;
+		margin-bottom:15px;
+		border-radius:5px;
+        width:180px;
+		
+	}	
+	
+	
+	
+	.reg-body .reg-form .form-group textarea{
+		 width:180px;
+		
+	}
+	
+	
+	.reg-body .reg-form .form-group select{
+		width:180px;
+		margin-bottom:15px;
+	}	
+	.reg-body .reg-form .form-group button{
+		
+	width:86%;
+	float:right;
+	}
+/*
+		* About Page CSS Section
+		* --------------------------------------------------
+		*/
+		.about-body{
+		margin-top:30%;
+		margin-bottom:5%;
+		background-color:#f5f5f5;
+	}
+	
+	.about-body .about h3:before{
+		position: absolute;
+		content: "";
+		display: block;
+		height: 11px;
+		width: 11px;
+		background: none;
+		text-align: center;
+		left:58.5%;
+		border: 1px solid #e47009;
+		border-radius: 50%;
+		margin-top:3.5%;
+	}
+    /*
+		* School Page CSS Section
+		* --------------------------------------------------
+		*/
+		.schoolsearch{
+			margin-top:55%;
+			background-color:rgba(0,0,0,0.7);
+		}
+		
+		.schoolsearch .searchbox i{
+			position:absolute;
+			
+			margin-left:35%;
+			margin-top:-3%;
+			color:rgba(0,0,0,0.7);
+		
+			color:rgba(0,0,0,0.7);
+		}
+		
+		.near-schools .school-address{
+			 background:#fff;
+			 width:100%;
+			 margin-top:-20px;
+		}
+		/*
+		* School_sub Page CSS Section
+		* --------------------------------------------------
+		*/
+        
+
+
+		
+        #slides_control {
+
+ 
+  left:35%;
+  top:20px;
+
+}
+   .school-info .top-content .top-right {
+        clear:both;
+       margin-top:75%
+    }
+   .school-info .top-content .top-right h2:before{
+			position: absolute;
+			content: "";
+			display: block;
+			height: 11px;
+			width: 11px;
+			background: none;
+			text-align: center;
+			left:66.5%;
+			border: 1px solid #e47009;
+			border-radius: 50%;
+			top:49px;
+		}
+	.school-info .bottom-content  h2:after{
+			 position: absolute;
+			 content: "";
+			 display: block;
+			 height: 1px;
+			 width: 140px;
+			 background: #e47009;
+			 text-align: left;
+			 left: 0;
+			 bottom: 25px;
+		}
+		.school-info .bottom-content h2:before{
+			position: absolute;
+			content: "";
+			display: block;
+			height: 11px;
+			width: 11px;
+			background: none;
+			text-align: center;
+			left:23%;
+			border: 1px solid #e47009;
+			border-radius: 50%;
+			top:88.5%;
+		}
+        
+ul.rating {
+    display: inline-block;
+   left:55px;
+    top:3px;
+}
+
+    .carousel-caption {
+        position: absolute;
+        left: 20%;
+        bottom: 1px;
+        z-index: 10;
+        /* padding-top: 20px; */
+        /* padding-bottom: 20px; */
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+    }
+	.carousel-caption .avg-rating{
+			color:#fff;
+			background:#e47009;
+			width:40px;
+			height:20px;
+			text-align:center;
+			border-radius:5px;
+			position:absolute;
+            top: 8px;
+          left: 170px;
+		}
+		.carousel-caption .review{
+			position:absolute;
+			top:10px;
+		margin-left:75%;
+       
+		}
+         .school-info .top-content .top-right .contact-info .Get-Directions {
+    background: #e47009;
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 30%;
+     margin-top: 4%; 
+    line-height: 2;
+    height: 30px;
+}
+                 .angular-google-map-container {
+          height: 300px;
+          margin-bottom: 15px;
+}
+		
+}
+
+
+
+
+ 
+   /*
+		* i pad view  CSS Section
+		* --------------------------------------------------
+		*/
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    
+    .page-wrapper {
+    display:inline-block;
+    padding:0 15px;
+}
+    
+   
+.banner {
+    position: relative;
+    min-height: 560px;
+    
+}
+.banner img {
+        width: 100%;
+        height:560px;
+    }
+    .content {
+    margin-left:14%;
+    margin-top:-57%
+    }
+
+        
+
+    .form-fields {
+       margin-top:-34%;
+        margin-left: 33%;
+        border: 1px solid black;
+    }
+       
+        .form-fields .select-box {
+            width:100%;
+        }
+        
+         
+        /*
+		* Services  CSS Section
+		* --------------------------------------------------
+		*/
+.service-block {
+ 
+    height: 2000px;
+}
+.service-block  #block_bg {
+   
+     width: 100%;
+          height:100%;
+	
+}
+
+
+.serviceContent{
+	
+	margin-top:-240%;
+	     margin-left: 50px;
+   
+}
+
+.servicecircle {
+ 
+  width:18%;
+  margin-left:42%;
+ 
+}
+    .transbox {
+        width:96%;
+    }
+
+
+		/*
+		* comment Pages CSS Section
+		* --------------------------------------------------
+		*/
+
+
+
+
+.commentcircle{
+	 height: 1px;
+  background: #e47009;
+  width:23%;
+  
+	
+
+}
+
+		
+/*
+		* login Pages CSS Section
+		* --------------------------------------------------
+		*/
+
+		
+.inner-page h2{
+
+			margin-top:-60%;
+		}
+.login {
+	clear:both;
+    
+  margin-top:10%;
+  margin-bottom:30%;
+}
+.login .form h3:before {
+	
+	left:55%;
+    margin-top: 3%;
+	
+	
+
+}.login .form .form-fields{
+	
+	
+	margin-left:10%;
+	width:70%;
+	
+	
+}
+
+.login .form .form-fields button {
+   
+    width: 104%;
+   margin-left: -1.9%;
+   
+}
+
+/*
+		* Help Page CSS Section
+		* --------------------------------------------------
+		*/
+
+	.contact-body{
+        clear:both;
+		margin-top:10%;
+		margin-bottom:4%;
+		
+	}
+	
+	
+	.contactUs h3:before{
+		
+            left: 50%;
+            margin-left: 70px;
+			top:6%;
+            bottom: 9px;
+	}
+	
+/*
+		* Registration Page CSS Section
+		* --------------------------------------------------
+		*/
+		
+		
+	.reg-body{
+		margin-top:33%;
+		margin-bottom:5%;
+		background-color:#f5f5f5;
+	}
+		
+	
+	
+	.reg-body .reg-form h3:before{
+		
+            left:60%;
+            
+			margin-top:2.8%;
+	}	
+	/*
+		* About Page CSS Section
+		* --------------------------------------------------
+		*/
+		.about-body{
+		margin-top:20%;
+		margin-bottom:5%;
+		background-color:#f5f5f5;
+	}
+	
+	.about-body .about h3:before{
+		position: absolute;
+		content: "";
+		display: block;
+		height: 11px;
+		width: 11px;
+		background: none;
+		text-align: center;
+		left:57%;
+		border: 1px solid #e47009;
+		border-radius: 50%;
+		margin-top:2.7%;
+	}		
+	/*
+		* School Page CSS Section
+		* --------------------------------------------------
+		*/
+		.schoolsearch{
+			margin-top:25%;
+			background-color:rgba(0,0,0,0.7);
+		}
+		
+		.schoolsearch .searchbox i{
+			position:absolute;
+			
+			margin-left:27%;
+			margin-top:-2.5%;
+			color:rgba(0,0,0,0.7);
+		
+			color:rgba(0,0,0,0.7);
+		}
+		/*
+		* School_sub  Page CSS Section
+		* --------------------------------------------------
+		*/
+			
+        #slides_control {
+
+ 
+  left:55%;
+  top:20px;
+
+}
+
+   
+   .school-info .top-content .top-right h2:before{
+			position: absolute;
+			content: "";
+			display: block;
+			height: 11px;
+			width: 11px;
+			background: none;
+			text-align: center;
+			left:77%;
+			border: 1px solid #e47009;
+			border-radius: 50%;
+			top:49px;
+		}
+	.school-info .bottom-content  h2:after{
+			 position: absolute;
+			 content: "";
+			 display: block;
+			 height: 1px;
+			 width: 140px;
+			 background: #e47009;
+			 text-align: left;
+			 left: 0;
+			 bottom: 25px;
+		}
+
+		.school-info .bottom-content h2:before{
+			position: absolute;
+			content: "";
+			display: block;
+			height: 11px;
+			width: 11px;
+			background: none;
+			text-align: center;
+			left:18.5%;
+			border: 1px solid #e47009;
+			border-radius: 50%;
+			top:87%;
+		}
+        
+ul.rating {
+    display: inline-block;
+   left:55px;
+    top:3px;
+}
+
+    .carousel-caption {
+        position: absolute;
+        left: 20%;
+        bottom: 1px;
+        z-index: 10;
+        /* padding-top: 20px; */
+        /* padding-bottom: 20px; */
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+    }
+	.carousel-caption .avg-rating{
+			color:#fff;
+			background:#e47009;
+			width:40px;
+			height:20px;
+			text-align:center;
+			border-radius:5px;
+			position:absolute;
+            top: 8px;
+          left: 170px;
+		}
+		.carousel-caption .review{
+			position:absolute;
+			top:10px;
+		margin-left:75%;
+       
+		}
+        .school-info .top-content .top-right .contact-info .Get-Directions {
+    background: #e47009;
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 30%;
+     margin-top: 4%; 
+    line-height: 2;
+    height: 30px;
+}
+                .angular-google-map-container {
+          height: 300px;
+          margin-bottom: 15px;
+}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .page-wrapper {
+    display:inline-block;
+    padding:0 15px;
+}
+     
+    .banner {
+    position: relative;
+    min-height: 422px;
+}
+     .content {
+    margin-left:14%;
+    margin-top:-37%
+    }
+
+        .content h1 {
+            font-size: 50px;
+        }
+
+        .content p {
+            font-size: 25px;
+        }
+
+    .form-fields {
+          border: 1px solid black;
+           
+			margin-top:-25%;
+			margin-left:20%;
+			z-index: 2;
+        }
+
+       
+        /*
+		* Services  CSS Section
+		* --------------------------------------------------
+		*/
+.service-block {
+ min-height:460px;
+    
+}
+.service-block  #block_bg {
+   
+     width: 100%;
+          height:460px;
+	
+}
+
+
+.serviceContent{
+	
+	margin-top:-44%;
+	     margin-left: 50px;
+   
+}
+
+.servicecircle {
+ 
+  width:15%;
+  margin-left:42%;
+ 
+}
+    .transbox {
+         width:88.3%;
+    }
+    /*
+		* comment Pages CSS Section
+		* --------------------------------------------------
+		*/
+
+
+.commentcircle{
+	 height: 1px;
+  background: #e47009;
+  width:53%;
+  
+}
+/*
+		* login Pages CSS Section
+		* --------------------------------------------------
+		*/
+
+		
+.inner-page h2{
+
+			margin-top:-20%;
+		}
+.login {
+	clear:both;
+    text-align:center;
+ margin-top:-10%;
+  margin-bottom:20%;
+}
+.login .form h3:before {
+	
+	left:54%;
+    margin-top: 2%;
+	
+	
+
+}.login .form .form-fields{
+	
+	
+	margin-left:23%;
+	width:50%;
+	
+	
+}
+
+.login .form .form-fields button {
+   
+    width: 104%;
+   margin-left: -1.9%;
+   
+}
+.contact-body{
+        clear:both;
+		margin-top:-10%;
+		margin-bottom:4%;
+		
+	}
+	
+	
+	.contactUs h3:before{
+		
+            left: 50%;
+            margin-left: 70px;
+			top:6%;
+            bottom: 9px;
+	}
+    	
+/*
+		* Registration Page CSS Section
+		* --------------------------------------------------
+		*/
+		
+		
+	.reg-body{
+		margin-top:10%;
+		margin-bottom:5%;
+		background-color:#f5f5f5;
+	}
+		
+	
+	
+	.reg-body .reg-form h3:before{
+		
+            left:57.5%;
+            
+			margin-top:2.1%;
+	}	
+    /*
+		* About Page CSS Section
+		* --------------------------------------------------
+		*/
+		.about-body{
+		margin-top:5%;
+		margin-bottom:5%;
+		background-color:#f5f5f5;
+	}
+	
+	.about-body .about h3:before{
+		position: absolute;
+		content: "";
+		display: block;
+		height: 11px;
+		width: 11px;
+		background: none;
+		text-align: center;
+		left:55.3%;
+		border: 1px solid #e47009;
+		border-radius: 50%;
+		margin-top:2%;
+	}	
+     /*
+		* About Page CSS Section
+		* --------------------------------------------------
+		*/
+    .schoolsearch{
+			margin-top:1%;
+			background-color:rgba(0,0,0,0.7);
+		}
+		
+		.schoolsearch .searchbox i{
+			position:absolute;
+			
+			margin-left:21%;
+			margin-top:-2.5%;
+			color:rgba(0,0,0,0.7);
+		
+			color:rgba(0,0,0,0.7);
+		}
+		/*
+		* School_sub  Page CSS Section
+		* --------------------------------------------------
+		*/
+			
+       
+   
+   .school-info .top-content .top-right h2:before{
+			position: absolute;
+			content: "";
+			display: block;
+			height: 11px;
+			width: 11px;
+			background: none;
+			text-align: center;
+			left:75%;
+			border: 1px solid #e47009;
+			border-radius: 50%;
+			top:49px;
+		}
+
+	.school-info .bottom-content  h2:after{
+			 position: absolute;
+			 content: "";
+			 display: block;
+			 height: 1px;
+			 width: 140px;
+			 background: #e47009;
+			 text-align: left;
+			 left: 0;
+			 bottom: 25px;
+		}
+
+		.school-info .bottom-content h2:before{
+			position: absolute;
+			content: "";
+			display: block;
+			height: 11px;
+			width: 11px;
+			background: none;
+			text-align: center;
+			left:14.4%;
+			border: 1px solid #e47009;
+			border-radius: 50%;
+			top:86.5%;
+		}
+        
+ul.rating {
+    display: inline-block;
+   left:35px;
+    top:3px;
+}
+
+    .carousel-caption {
+        position: absolute;
+        left: 20%;
+        bottom: 1px;
+        z-index: 10;
+        /* padding-top: 20px; */
+        /* padding-bottom: 20px; */
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+    }
+	.carousel-caption .avg-rating{
+			color:#fff;
+			background:#e47009;
+			width:40px;
+			height:20px;
+			text-align:center;
+			border-radius:5px;
+			position:absolute;
+            top: 8px;
+          left: 170px;
+		}
+		.carousel-caption .review{
+			position:absolute;
+			top:10px;
+		margin-left:75%;
+       
+		}
+        .school-info .top-content .top-right .contact-info .Get-Directions {
+    background: #e47009;
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 30%;
+     margin-top: 4%; 
+    line-height: 2;
+    height: 30px;
+}
+         .angular-google-map-container {
+          height: 300px;
+          margin-bottom: 15px;
+}
+}
+
+
+  

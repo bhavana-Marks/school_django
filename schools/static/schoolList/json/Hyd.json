@@ -1,0 +1,79 @@
+{ 
+  "kukatpalli": [
+   {
+        "schoolName": "Oakridge International School",
+        "imgPath": "assets/images/school_name1.jpg",
+        "distance": "12kms",
+        "address": "balayya sastn layout,kukatpalli , Hyderabad.",
+       "desc": "Oakridge International School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.Little Angels School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.",
+        "schoolLocation": "Oakridge International School,Gachibowli,hyderabad, Nanakramguda Road, Near Lanco Hills, Khajaguda, Gachibowli, Hyderabad, Telangana 500008",
+        "contactNum": "'+91-891-2553221/2501951',' +91-891-2504644'",
+        "email":"oakridgehyd@yahoo.co.in",
+        "webAddress":  "http://oakridge.in/",
+        "facitilities": [ "Play Ground", "Science Lab", "Computer Lab", "Library", "Multipurpose halls", "Yoga & Meditation Room", "Auditorium", "Bus" ],
+        "corousalImg": [ "assets/images/sub-school-sliders.jpg", "assets/images/sub-school-sliders.jpg" ]
+           
+       
+      },
+      {
+        "schoolName": "Little Angels School",
+        "imgPath": "assets/images/school_name2.jpg",
+        "distance": "10kms",
+        "address": "balayya sastn layout, kukatpalli, Hyderabad.",
+         "desc": "Little Angels School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.Little Angels School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.",
+        "schoolLocation":  "Little Angels High School, 1-141, Kokapet, Near gram panchyat, Hyderabad, Telangana 500075",
+        "contactNum":  "'+91-891-2553221/2501951', '+91-891-2504644'",
+        "email":"littleangelschoolsvizag@yahoo.co.in",
+        "webAddress":  "http://www.littleangels.org.in",
+        "facitilities": [ "Play Ground", "Science Lab", "Computer Lab", "Library", "Multipurpose halls", "Auditorium", "Bus" ],
+        "corousalImg": [ "assets/images/sub-school-sliders.jpg", "assets/images/sub-school-sliders.jpg" ]
+        
+        
+      },
+      
+       {
+        "schoolName": "Delhi Public School School",
+        "imgPath": "assets/images/school_name4.jpg",
+        "distance": "13kms",
+         "desc": "Delhi Public School School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.Little Angels School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.",
+        "address": "alayya sastn layout, kukatpalli, Hyderabad.",
+        "schoolLocation":  "Delhi Public School, Survey No 74, Khajaguda Village, Golkonda Post, Hyderabad, Telangana 500008",
+        "contactNum":  "'+91-891-2553221/2501951', '+91-891-2504644'",
+        "email":"delhipublicschool@yahoo.co.in",
+        "webAddress": "http://www.dpshyderabad.in/",
+        "facitilities": [ "Play Ground", "Science Lab", "Computer Lab", "Library", "Multipurpose halls", "Yoga & Meditation Room", "Auditorium", "Bus" ],
+         "corousalImg": [ "assets/images/sub-school-sliders.jpg", "assets/images/sub-school-sliders.jpg" ]
+       
+      }
+  ],
+"Nizampeta":[
+   {
+        "schoolName": "Pragati International School",
+        "imgPath": "school_name4.jpg",
+        "distance": "13kms",
+         "desc": "Pragati International School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.Little Angels School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.",
+        "address": "alayya sastn layout, Nizampeta, Hyderabad.",
+        "schoolLocation": "Pragathi Central School, pragathi centyral schools, pragathi nagar,opp-jntu,hyd-500090, Kukatpally, Hyderabad, Telangana 500072",
+        "contactNum": "'+91-891-2553221/2501951',' +91-891-2504644'",
+        "email":"pragatihyd@yahoo.co.in",
+        "webAddress":  "https://www.pragathicentralschool.com/",
+        "facitilities": [ "Play Ground", "Science Lab", "Computer Lab", "Library", "Multipurpose halls", "Yoga & Meditation Room", "Auditorium", "Bus" ],
+         "corousalImg": [ "assets/images/sub-school-sliders.jpg", "assets/images/sub-school-sliders.jpg" ]
+       
+      },
+     {
+        "schoolName": "Oakridge International School",
+        "imgPath": "school_name5.jpg",
+      "distance": "12kms",
+       "desc": "Oakridge International School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.Little Angels School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.",
+      "address": "alayya sastn layout, Nizampeta, Hyderabad.",
+      "schoolLocation": "Oakridge International School,Gachibowli,hyderabad, Nanakramguda Road, Near Lanco Hills, Khajaguda, Gachibowli, Hyderabad, Telangana 500008",
+        "contactNum": "'+91-891-2553221/2501951',' +91-891-2504644'",
+        "email":"oakridgehyd@yahoo.co.in",
+        "webAddress":  "http://oakridge.in/",
+      "facitilities": [ "Play Ground", "Science Lab", "Computer Lab", "Library", "Multipurpose halls", "Auditorium", "Bus" ],
+       "corousalImg": [ "assets/images/sub-school-sliders.jpg", "assets/images/sub-school-sliders.jpg" ]
+     
+      }
+]
+}

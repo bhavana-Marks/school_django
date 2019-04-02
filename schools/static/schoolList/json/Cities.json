@@ -1,0 +1,10 @@
+﻿[
+  {
+    "cityName": "hyderabad",
+    "areas": [ "kukatpalli", "Nizampeta", "Madhapur", "Ameerpeta", "Banjarahills", "Jublihills" ]
+  },
+  {
+    "cityName": "vizag",
+    "areas": [  "M V P colony", "Seetammadara", "Madhuravada", "Bechroad", "lawsonsBay", "lawsonsBay1", "lawsonsBay2", "lawsonsBay3" ]
+  }
+]

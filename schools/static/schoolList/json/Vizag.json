@@ -1,0 +1,91 @@
+{
+	"M V P colony":[
+						 {
+                          "schoolName": "Oakridge International school",
+                          "address": "balayya sastn layout, M V P colony, visakhapatnam.",
+                            "imgPath": "assets/images/school_name1.jpg",
+                          "distance": "12kms",
+                           "desc": "Oakridge International School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.Little Angels School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.",
+                          "schoolLocation": "Oakridge International School Visakhapatnam, NH 5 Road, Behind HP Petrol Bunk, Maharajpeta Junction,Thagarapuvalasa, Visakhapatnam, Andhra Pradesh 531162",
+                          "contactNum": "'+91-891-2553221/2501951',' +91-891-2504644'",
+                          "email":"oakridgevizag@yahoo.co.in",
+                          "webAddress":  "http://oakridge.in/",
+                          "facitilities": [ "Play Ground", "Science Lab", "Computer Lab", "Library", "Multipurpose halls", "Yoga & Meditation Room", "Auditorium", "Bus" ],
+                          "corousalImg": [ "assets/images/sub-school-sliders.jpg", "assets/images/sub-school-sliders.jpg" ]
+                        
+                            
+                        },
+                         {
+                          "schoolName": "Visakha Valley School",
+                          "address": "balayya sastn layout, M V P colony,visakhapatnam.",
+                          "imgPath": "assets/images/school_name3.jpg",
+                           "desc": "Visakha Valley School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.Little Angels School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.",
+                          "distance": "12kms",
+                          "schoolLocation": "Visakha Valley School, China Gadili Old Dairy Farm Madhurawada, Vishalakshi Nagar, Visakhapatnam, Andhra Pradesh 530040",
+                          "contactNum": "'+91-891-2553221/2501951',' +91-891-2504644'",
+                          "email":"visakhavizag@yahoo.co.in",
+                          "webAddress":  "http://www.visakhavalleyschool.com/",
+                          "facitilities": [ "Play Ground", "Science Lab", "Computer Lab", "Library", "Multipurpose halls", "Auditorium", "Bus" ],
+                           "corousalImg": [ "assets/images/sub-school-sliders.jpg", "assets/images/sub-school-sliders.jpg" ]
+                          
+                        },
+                        {
+                          "schoolName": "Alwardas Public School ICSE",
+                          "address": "balayya sastn layout,  M V P colony,visakhapatnam.",
+                           "imgPath": "assets/images/school_name6.jpg",
+                          "distance": "12kms",
+                           "desc": "Alwardas Public School ICSE was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.Little Angels School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.",
+                           "schoolLocation": "Alwardas Public School ICSE, MVP Main Rd, Sector 10, MVP Colony, Visakhapatnam, Andhra Pradesh 530017",
+                          "contactNum": "'+91-891-2553221/2501951',' +91-891-2504644'",
+                          "email":"alwardasvizag@yahoo.co.in",
+                          "webAddress":  "http://apsvizag.edu.in/",
+                          "facitilities": [ "Play Ground", "Science Lab", "Computer Lab", "Library", "Multipurpose halls", "Auditorium", "Bus" ],
+                           "corousalImg": [ "assets/images/sub-school-sliders.jpg", "assets/images/sub-school-sliders.jpg" ]
+                         
+                        }
+	],
+	"Seetammadara":[
+	{
+                          "schoolName": "Delhi Public School",
+                          "address": "balayya sastn layout, Seetammadara, visakhapatnam.",
+                           "imgPath": "assets/images/school_name4.jpg",
+                          "distance": "12kms",
+                           "desc": "Delhi Public School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.Little Angels School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.",
+                           "schoolLocation": "Delhi Public School Visakhapatnam, SECTOR-VIII, UKKUNAGARAM, Visakhapatnam, Andhra Pradesh 530032",
+                          "contactNum": "'+91-891-2553221/2501951',' +91-891-2504644'",
+                          "email":"delhipublicvizag@yahoo.co.in",
+                          "webAddress":  "http://www.dpshyderabad.in/",
+                          "facitilities": [ "Play Ground", "Science Lab", "Computer Lab", "Library", "Multipurpose halls", "Yoga & Meditation Room", "Auditorium", "Bus" ],
+                           "corousalImg": [ "assets/images/sub-school-sliders.jpg", "assets/images/sub-school-sliders.jpg" ]
+                          
+                        },
+                        {
+                          "schoolName": "Little Angels School",
+                          "address": "balayya sastn layout, Seetammadara,visakhapatnam.",
+                           "imgPath": "assets/images/school_name6.jpg",
+                          "distance": "12kms",
+                           "desc": "Little Angels School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.Little Angels School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.",
+                           "schoolLocation": "Little Angels School, Sector 10, Steel Plant Twp, Visakhapatnam, Andhra Pradesh 530032",
+                          "contactNum": "'+91-891-2553221/2501951',' +91-891-2504644'",
+                          "email":"littleAngelsvizag@yahoo.co.in",
+                          "webAddress":  "http://www.littleangels.org.in",
+                          "facitilities": [ "Play Ground", "Science Lab", "Computer Lab", "Library", "Multipurpose halls", "Auditorium", "Bus" ],
+                           "corousalImg": [ "assets/images/sub-school-sliders.jpg", "assets/images/sub-school-sliders.jpg" ]
+                        
+                        },
+                        {
+                          "schoolName": "Oakridge International school",
+                          "address": "balayya sastn layout, Seetammadara,visakhapatnam.",
+                             "imgPath": "assets/images/school_name1.jpg",
+                          "distance": "12kms",
+                           "desc": "Oakridge International School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.Little Angels School was founded in 1983 at MVP Colony with 95 students. Today the school has 3,000 students on its rolls. Following the opening in MVP Colony, a branch began in Ukkunagaram (Visakhapatnam Steel Plant Township) in order to meet the requirement for a standard English medium school in the Steel City township and the nearby areas.",
+                          "schoolLocation": "Plot No.-33, Door No. 11-8-34, Daspalla Layout, Pandurangapuram, Visakhapatnam, Andhra Pradesh 530003",
+                          "contactNum": "'+91-891-2553221/2501951',' +91-891-2504644'",
+                          "email":"oakridgevizag@yahoo.co.in",
+                          "webAddress":  "http://oakridge.in/",
+                          "facitilities": [ "Play Ground", "Science Lab", "Computer Lab", "Library", "Multipurpose halls", "Yoga & Meditation Room", "Auditorium", "Bus" ],
+                           "corousalImg": [ "assets/images/sub-school-sliders.jpg", "assets/images/sub-school-sliders.jpg" ]
+                         
+                        }
+                    ]
+}
